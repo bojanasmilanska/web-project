@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact &amp; Schedule — Core Balance Pilates, Denver, CO</title>
+  <meta name="description" content="Book a trial class, view the weekly class schedule, or contact Core Balance Pilates in Denver, CO.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+
+
+
+<!-- Header -->
+<header class="header">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <span class="logo-text">MOVE</span>
+      <span class="logo-sub">Pilates Studio &mdash; Skopje</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav">
+      <a href="index.html" class="nav-link">Почетна</a>
+      <a href="about.html" class="nav-link">За нас</a>
+      <a href="services.html" class="nav-link">Услуги</a>
+      <a href="contact.html" class="nav-link active">Контакт</a>
+    </nav>
+    <a href="contact.html" class="btn btn-primary header-cta">Закажи пробен час</a>
+  </div>
+</header>
+
+<!-- Page Hero -->
+<section class="page-hero">
+  <div class="container">
+    <span class="section-label">Контакт</span>
+    <h1>Резервирај го својот час</h1>
+    <p>Пријави се за пробен час, резервирај приватна сесија или едноставно испрати ни порака. Со задоволство ќе ти одговориме и ќе ти помогнеме да го пронајдеш најдобриот час за тебе.</p>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- Left: Forms -->
+      <div>
+        <!-- Trial Class Form -->
+        <div class="contact-form-box">
+          <h2>Резервирај го твојот воведен месец</h2>
+          <p class="form-subtitle">Првиот цел месец со неограничени групни часови за 2.600 денари. Пополни ја формата и ќе го потврдиме твојот почетен датум во рок од 24 часа.</p>
+          <form action="#" method="POST">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="first-name">Име</label>
+                <input type="text" id="first-name" name="first_name" placeholder="Марија" required>
+              </div>
+              <div class="form-group">
+                <label for="last-name">Презиме</label>
+                <input type="text" id="last-name" name="last_name" placeholder="Стојановска" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Е-пошта</label>
+              <input type="email" id="email" name="email" placeholder="marija.stojanovska@gmail.com" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Телефонски број</label>
+              <input type="tel" id="phone" name="phone" placeholder="+389 70 000 000">
+            </div>
+            <div class="form-group">
+              <label for="experience">Искуство со Pilates</label>
+              <select id="experience" name="experience">
+                <option value="">Избери опција</option>
+                <option value="none">Немам искуство — за првпат се среќавам со Pilates</option>
+                <option value="some-mat">Имам посетувано Mat Pilates часови во друго студио</option>
+                <option value="some-reformer">Имам искуство со Reformer</option>
+                <option value="regular">Редовно вежбам Pilates и сакам повторно да продолжам</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="preferred-time">Посакувано време за час</label>
+              <select id="preferred-time" name="preferred_time">
+                <option value="">Избери опција</option>
+                <option value="early-morning">Рано наутро (06:00 – 07:30)</option>
+                <option value="morning">Наутро (08:00 – 10:00)</option>
+                <option value="midday">Попладне (11:00 – 13:00)</option>
+                <option value="evening">Вечер (17:00 – 19:30)</option>
+                <option value="weekend">За време на викенд</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="goals">Цели или дополнителни информации (опционално)</label>
+              <textarea id="goals" name="goals" placeholder="Кажи ни нешто повеќе за тоа на што би сакале да работите, дали имате некакви ограничувања или прашања што би сакале да ги споделите со нас."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary form-submit">Резервирај воведен месец — 2.600 ден.</button>
+          </form>
+        </div>
+
+        <!-- General Inquiry Form -->
+        <div class="inquiry-form-box">
+          <h3 style="margin-bottom: var(--spacing-2);">Општи прашања</h3>
+          <p class="form-subtitle">Имате прашања за часовите, распоредот или индивидуалните тренинзи? Испратете ни порака.</p>
+          <form action="#" method="POST">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="inq-name">Име и презиме</label>
+                <input type="text" id="inq-name" name="name" placeholder="Вашето име" required>
+              </div>
+              <div class="form-group">
+                <label for="inq-email">Е-пошта</label>
+                <input type="email" id="inq-email" name="email" placeholder="вашата@е-пошта.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inq-subject">Предмет</label>
+              <select id="inq-subject" name="subject">
+                <option value="">Изберете тема…</option>
+                <option value="schedule">Прашање за распоредот на часови</option>
+                <option value="private">Прашање за индивидуални тренинзи</option>
+                <option value="membership">Прашање за членство</option>
+                <option value="injury">Повреда или специфични потреби</option>
+                <option value="gift">Подарок-картичка</option>
+                <option value="other">Друго</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="inq-message">Порака</label>
+              <textarea id="inq-message" name="message" placeholder="Како можеме да ти помогнеме?" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-outline form-submit">Испрати порака</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Right: Contact Info -->
+      <div class="contact-info">
+
+        <div class="contact-info-block">
+          <h3>Контакт со студиото</h3>
+          <div class="contact-detail">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+            </div>
+            <div class="contact-detail-text">
+              <strong>Телефон</strong>
+              +389 70 453 266
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div class="contact-detail-text">
+              <strong>Е-пошта</strong>
+              hello@move.mk
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div class="contact-detail-text">
+              <strong>Адреса на студиото</strong>
+              ул. Македонија 25<br>
+              1000 Скопје<br>
+              (Центар)
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-info-block">
+          <h3>Работно време</h3>
+          <div style="display: flex; flex-direction: column; gap: var(--spacing-3);">
+            <div style="display: flex; justify-content: space-between; font-size: 0.9rem; padding-bottom: var(--spacing-3); border-bottom: 1px solid var(--border);">
+              <span style="font-family: var(--font-heading); font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted);">Понеделник – Петок</span>
+              <span>06:00 – 19:30</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; font-size: 0.9rem; padding-bottom: var(--spacing-3); border-bottom: 1px solid var(--border);">
+              <span style="font-family: var(--font-heading); font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted);">Сабота</span>
+              <span>07:00 – 13:00</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; font-size: 0.9rem;">
+              <span style="font-family: var(--font-heading); font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted);">Недела</span>
+              <span>08:00 – 12:00</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-info-block">
+          <h3>Паркирање и како да стигнеш</h3>
+          <p style="font-size: 0.9rem; color: var(--text-muted);">Паркирањето е достапно на улицата и во околните улички во близина на студиото. Студиото се наоѓа на приземје од двокатна зграда. Побарај ја влезната врата со ознака на нашето студио.</p>
+          <p style="font-size: 0.9rem; color: var(--text-muted);">Доколку доаѓаш со велосипед, има место за оставање велосипеди непосредно пред студиото. Најблиската автобуска постојка се наоѓа на неколку минути пешачење.</p>
+          <p style="font-size: 0.9rem; color: var(--text-muted);">За првата посета, те молиме пристигни 5 минути порано, за да те запознаеме со студиото и да ти помогнеме да се подготвиш за тренингот.</p>
+        </div>
+
+        <div class="contact-info-block" style="background: var(--bg-section); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: var(--spacing-6);">
+          <p style="font-family: var(--font-heading); font-size: 0.68rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--primary); margin-bottom: var(--spacing-3);">Нови членови</p>
+          <p style="font-size: 0.9rem; color: var(--text-body); font-style: italic; margin-bottom: 0;">Препорачуваме да започнеш со нашата воведна програма — 3.500 ден. за 4 часа — пред да се приклучиш на редовните групни тренинзи. Програмата ќе ти ги даде потребните основи за да извлечеш максимум од секој следен тренинг. Почетниците кои ја прескокнуваат воведната програма понекогаш може да се чувствуваат несигурно во групните часови. Нашата воведна програма е создадена токму за да ти помогне да започнеш сигурно и со правилна техника.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Weekly Schedule -->
+<section class="schedule-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">Неделен распоред</span>
+      <h2>Распоред на часови</h2>
+      <div class="divider"></div>
+      <p>Распоредот се ажурира редовно. Резервирај го својот час онлајн или контактирај нè за да го резервираш своето место.</p>
+    </div>
+    <div class="schedule-table-wrapper">
+      <table class="schedule-table">
+        <thead>
+          <tr>
+            <th>Време</th>
+            <th>Понеделник</th>
+            <th>Вторник</th>
+            <th>Среда</th>
+            <th>Четврток</th>
+            <th>Петок</th>
+            <th>Сабота</th>
+            <th>Недела</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="font-family: var(--font-heading); font-size: 0.72rem; letter-spacing: 0.06em; color: var(--text-muted); white-space: nowrap;">06:00</td>
+            <td><span class="class-tag reformer">Reformer</span><br><small style="color:var(--text-muted);font-size:0.78rem;">All Levels</small></td>
+            <td><span class="class-tag reformer">Reformer</span><br><small style="color:var(--text-muted);font-size:0.78rem;">Foundations</small></td>
+            <td><span class="class-tag reformer">Reformer</span><br><small style="color:var(--text-muted);font-size:0.78rem;">All Levels</small></td>
+            <td><span class="class-tag reformer">Reformer</span><br><small style="color:var(--text-muted);font-size:0.78rem;">Foundations</small></td>
+            <td><span class="class-tag reformer">Reformer</span><br><small style="color:var(--text-muted);font-size:0.78rem;">All Levels</small></td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+          </tr>
+          <tr>
+            <td style="font-family: var(--font-heading); font-size: 0.72rem; letter-spacing: 0.06em; color: var(--text-muted);">07:30</td>
+            <td>&mdash;</td>
+            <td><span class="class-tag mat">Mat</span><br><small style="color:var(--text-muted);font-size:0.78rem;">Classical</small></td>
+            <td>&mdash;</td>
+            <td><span class="class-tag mat">Mat</span><br><small style="color:var(--text-muted);font-size:0.78rem;">Classical</small></td>
+            <td>&mdash;</td>
+            <td><span class="class-tag reformer">Reformer</span><br><small style="color:var(--text-muted);font-size:0.78rem;">All Levels</small></td>
+            <td><span class="class-tag mat">Mat</span><br><small style="color:var(--text-muted);font-size:0.78rem;">Classical</small></td>
+          </tr>
+          <tr>
+            <td style="font-family: var(--font-heading); font-size: 0.72rem; letter-spacing: 0.06em; color: var(--text-muted);">09:00</td>
+            <td><span class="class-tag mat">Mat</span><br><small style="color:var(--text-muted);font-size:0.78rem;">With Props</small></td>
+            <td><span class="class-tag reformer">Reformer</span><br><small style="color:var(--text-muted);font-size:0.78rem;">Level 1-2</small></td>
+            <td><span class="class-tag mat">Mat</span><br><small style="color:var(--text-muted);font-size:0.78rem;">Fundamentals</small></td>
+            <td><span class="class-tag reformer">Reformer</span><br><small style="color:var(--text-muted);font-size:0.78rem;">Level 1-2</small></td>
+            <td><span class="class-tag mat">Mat</span><br><small style="color:var(--text-muted);font-size:0.78rem;">With Props</small></td>
+            <td><span class="class-tag mat">Mat</span><br><small style="color:var(--text-muted);font-size:0.78rem;">Classical</small></td>
+            <td><span class="class-tag reformer">Reformer</span><br><small style="color:var(--text-muted);font-size:0.78rem;">Foundations</small></td>
+          </tr>
+          <tr>
+            <td style="font-family: var(--font-heading); font-size: 0.72rem; letter-spacing: 0.06em; color: var(--text-muted);">10:30</td>
+            <td><span class="class-tag reformer">Reformer</span><br><small style="color:var(--text-muted);font-size:0.78rem;">All Levels</small></td>
+            <td>&mdash;</td>
+            <td><span class="class-tag reformer">Reformer</span><br><small style="color:var(--text-muted);font-size:0.78rem;">All Levels</small></td>
+            <td>&mdash;</td>
+            <td><span class="class-tag reformer">Reformer</span><br><small style="color:var(--text-muted);font-size:0.78rem;">All Levels</small></td>
+            <td><span class="class-tag private">Tower</span><br><small style="color:var(--text-muted);font-size:0.78rem;">Tower Flow</small></td>
+            <td>&mdash;</td>
+          </tr>
+          <tr>
+            <td style="font-family: var(--font-heading); font-size: 0.72rem; letter-spacing: 0.06em; color: var(--text-muted);">12:00</td>
+            <td><span class="class-tag mat">Mat</span><br><small style="color:var(--text-muted);font-size:0.78rem;">Classical</small></td>
+            <td><span class="class-tag mat">Mat</span><br><small style="color:var(--text-muted);font-size:0.78rem;">Fundamentals</small></td>
+            <td><span class="class-tag mat">Mat</span><br><small style="color:var(--text-muted);font-size:0.78rem;">Classical</small></td>
+            <td><span class="class-tag mat">Mat</span><br><small style="color:var(--text-muted);font-size:0.78rem;">Fundamentals</small></td>
+            <td><span class="class-tag mat">Mat</span><br><small style="color:var(--text-muted);font-size:0.78rem;">Classical</small></td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+          </tr>
+          <tr>
+            <td style="font-family: var(--font-heading); font-size: 0.72rem; letter-spacing: 0.06em; color: var(--text-muted);">17:30</td>
+            <td><span class="class-tag reformer">Reformer</span><br><small style="color:var(--text-muted);font-size:0.78rem;">Foundations</small></td>
+            <td><span class="class-tag reformer">Reformer</span><br><small style="color:var(--text-muted);font-size:0.78rem;">All Levels</small></td>
+            <td><span class="class-tag reformer">Reformer</span><br><small style="color:var(--text-muted);font-size:0.78rem;">Foundations</small></td>
+            <td><span class="class-tag reformer">Reformer</span><br><small style="color:var(--text-muted);font-size:0.78rem;">All Levels</small></td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+          </tr>
+          <tr>
+            <td style="font-family: var(--font-heading); font-size: 0.72rem; letter-spacing: 0.06em; color: var(--text-muted);">19:00</td>
+            <td><span class="class-tag mat">Mat</span><br><small style="color:var(--text-muted);font-size:0.78rem;">Classical</small></td>
+            <td><span class="class-tag private">Tower</span><br><small style="color:var(--text-muted);font-size:0.78rem;">Tower Flow</small></td>
+            <td><span class="class-tag mat">Mat</span><br><small style="color:var(--text-muted);font-size:0.78rem;">With Props</small></td>
+            <td><span class="class-tag private">Tower</span><br><small style="color:var(--text-muted);font-size:0.78rem;">Cadillac</small></td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="margin-top: var(--spacing-6); font-size: 0.85rem; color: var(--text-light); font-style: italic; text-align: center;">Приватните тренинзи и тренинзите во пар се достапни од понеделник до сабота со претходна резервација. Контактирај нè за да го договориш својот термин.</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">Најчесто поставувани прашања</span>
+      <h2>Пред твојот прв час</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="faq-grid">
+      <div class="faq-item">
+        <p class="faq-question">Што треба да облечам?</p>
+        <p class="faq-answer">Најдобар избор е удобна, прилепена спортска облека која не го ограничува движењето. Така полесно можеш да го следиш своето држење и порамнување на телото, а инструкторот полесно може да ја следи твојата техника и да те коригира кога е потребно. Избегнувај многу широка облека и широки шорцеви, бидејќи можат да го отежнат правилното изведување на вежбите. На Reformer се задолжителни чорапи со антилизгачки ѓон. Доколку немаш, можеш да ги купиш во студиото. Во студиото не се носат обувки.</p>
+      </div>
+      <div class="faq-item">
+        <p class="faq-question">Што треба да понесам?</p>
+        <p class="faq-answer">Само себе, чорапи со антилизгачки ѓон и шише со вода. Ние обезбедуваме сè останато: душеци, Reformer опрема, крпи и сите потребни реквизити. Во просторот за пресоблекување има филтрирана вода. Не ти е потребен сопствен душек или друга опрема за да започнеш.</p>
+      </div>
+      <div class="faq-item">
+        <p class="faq-question">Комплетен/на почетник сум. Дали е тоа во ред?</p>
+        <p class="faq-answer">Секако. Токму затоа препорачуваме да започнеш со нашата воведна програма. Четирите воведни часови ќе ти ги дадат основите и сигурноста што ти се потребни за полесно да се приклучиш на редовните групни тренинзи и да извлечеш максимум од секој следен час. Доколку сакаш веднаш да започнеш со групни тренинзи, Reformer Foundations и Mat Fundamentals се најсоодветниот избор за почеток.</p>
+      </div>
+      <div class="faq-item">
+        <p class="faq-question">Која е разликата помеѓу Reformer и Mat Pilates?</p>
+        <p class="faq-answer">Mat Pilates е оригиналната форма на Pilates и користи главно отпор од сопствената тежина на телото. Иако изгледа едноставно, може да биде исклучително предизвикувачки. Reformer Pilates користи подвижна платформа, пружини и ремени кои создаваат отпор и можат да го олеснат или отежнат движењето, зависно од вежбата. И двата пристапи се засноваат на класичниот Pilates метод. Многу од оние кои редовно тренираат комбинираат Reformer и Mat Pilates, бидејќи секој пристап го надополнува другиот. Ако треба да избереш само еден за почеток, препорачуваме да започнеш со Reformer.</p>
+      </div>
+      <div class="faq-item">
+        <p class="faq-question">Имам повреда или хронична болка. Дали сепак можам да посетувам часови?</p>
+        <p class="faq-answer">Во многу случаи, да, но важно е да нè информираш пред да резервираш час. Доколку имаш активна повреда, состојба по хируршка интервенција, остеопороза или друга состојба поради која се потребни значителни прилагодувања, препорачуваме прво да започнеш со индивидуални тренинзи. Така инструкторот може подобро да ги разбере твоите потреби и да го прилагоди пристапот пред да се приклучиш на групен час.</p>
+      </div>
+      <div class="faq-item">
+        <p class="faq-question">Која е политиката за откажување?</p>
+        <p class="faq-answer">Групните часови можеш да ги откажеш до 12 часа пред почетокот без дополнителен трошок. При откажување во последните 12 часа или недоаѓање на часот, се губи искористувањето на часот од пакетот. За индивидуални тренинзи и тренинзи во пар потребно е откажување најмалку 24 часа однапред. Доцните откажувања и недоаѓањето се наплаќаат во целост. Ги одржуваме групите мали за секој да добие доволно внимание и простор за квалитетен тренинг, па навременото откажување им овозможува на другите членови од листата на чекање да го искористат ослободеното место.</p>
+      </div>
+      <div class="faq-item">
+        <p class="faq-question">Колку брзо ќе забележам резултати?</p>
+        <p class="faq-answer">Напредокот е различен за секого и зависи од твојата доследност, искуство и зачестеноста на тренинзите. Многу луѓе забележуваат подобро држење на телото, поголема свесност во движењето и чувство на поголема стабилност уште во првите недели.
+
+          Со редовни тренинзи, постепено можеш да забележиш подобрување на силата, контролата и мобилноста. Најважно е да се фокусираш на квалитетот и континуитетот, наместо на брзи резултати.</p>
+      </div>
+      <div class="faq-item">
+        <p class="faq-question">Дали Pilates е само за жени?</p>
+        <p class="faq-answer">Не. Pilates е наменет за секого. Joseph Pilates го развил методот за да ја подобри силата, контролата, стабилноста и квалитетот на движењето, а овие придобивки се релевантни без оглед на полот. Pilates може да помогне во развивање на функционална сила на трупот, стабилност на колковите и подобра подвижност на 'рбетот. Класичниот метод може да биде предизвикувачки за секого, без разлика на претходното искуство или нивото на физичка подготвеност.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <span class="logo-text">Move</span>
+                    <span class="logo-sub">Pilates Studio</span>
+                </a>
+                <p class="footer-tagline">Движи се со намера.</p>
+                <p class="footer-contact-item">+389 70 453 266</p>
+                <p class="footer-contact-item">hello@move.mk</p>
+                <p class="footer-contact-item">Скопје</p>
+            </div>
+            <div>
+                <p class="footer-heading">Страници</p>
+                <ul class="footer-links">
+                    <li><a href="index.html">Почетна</a></li>
+                    <li><a href="about.html">За нас</a></li>
+                    <li><a href="services.html">Часови и цени</a></li>
+                    <li><a href="contact.html">Контакт и распоред</a></li>
+                </ul>
+            </div>
+            <div>
+                <p class="footer-heading">Часови</p>
+                <ul class="footer-links">
+                    <li><a href="services.html">Reformer Classes</a></li>
+                    <li><a href="services.html">Mat Pilates</a></li>
+                    <li><a href="services.html">Tower &amp; Cadillac</a></li>
+                    <li><a href="services.html">Private Sessions</a></li>
+                    <li><a href="services.html">Duet тренинзи</a></li>
+                    <li><a href="services.html">Воведна програма</a></li>
+                </ul>
+            </div>
+            <div class="footer-hours">
+                <p class="footer-heading">Работно време</p>
+                <p>Понеделник – Петок: 06:00 – 19:30</p>
+                <p>Сабота: 07:00 – 13:00</p>
+                <p>Недела: 08:00 – 12:00</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Move Pilates Studio. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+  const navToggle = document.querySelector('.nav-toggle');
+  const nav = document.querySelector('.nav');
+  if (navToggle && nav) {
+    navToggle.addEventListener('click', () => {
+      const isOpen = nav.classList.toggle('nav-open');
+      navToggle.classList.toggle('active');
+      navToggle.setAttribute('aria-expanded', isOpen);
+    });
+  }
+</script>
+</body>
+</html>
