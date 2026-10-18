@@ -1,0 +1,12 @@
+
+services:
+  web:
+    image: nginx:alpine
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/usr/share/nginx/html:ro
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
